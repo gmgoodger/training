@@ -82,6 +82,9 @@ output "public_dns" {
   value = ["${aws_instance.web.*.public_dns}"]
 }
 
+# Adding this comment to see changes in GitHub.
+# Testing 1,2,3.
+
 # module "example" {
 #    source = "./example-module"
 #    command = echo "Hello_World"
